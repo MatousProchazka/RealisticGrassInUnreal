@@ -243,7 +243,7 @@ void AGrassBlade::SetupDefaultTexture(UTexture2D*& texture, int textureWidth, in
 	texture->PlatformData = new FTexturePlatformData();
 	texture->PlatformData->SizeX = textureWidth;
 	texture->PlatformData->SizeY = textureHeight;
-	texture->PlatformData->NumSlices = 1;
+	texture->PlatformData->SetNumSlices(1);
 	texture->PlatformData->PixelFormat = EPixelFormat::PF_R8G8B8A8;
 }
 

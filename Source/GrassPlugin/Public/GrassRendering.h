@@ -29,11 +29,11 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GrassBlade.h"
-#include "Array.h"
+#include "Containers/Array.h"
 #include "Math.h"
 #include "Runtime/Core/Public/Math/Quat.h"
 #include "EngineUtils.h"
-#include "vector.h"
+#include <vector>
 #include "cuda_poisson_lib.h"
 #include "GVar.h"
 

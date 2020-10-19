@@ -36,7 +36,9 @@
 #include "PropertyCustomizationHelpers.h"
 #include "IDetailsView.h"
 #include "Toolkits/BaseToolkit.h"
-#include "ScrollBox.h"
+
+
+#include "Widgets/Layout/SScrollBox.h"
 
 DECLARE_LOG_CATEGORY_EXTERN(LogGrassModeWidget, Log, All);
 
